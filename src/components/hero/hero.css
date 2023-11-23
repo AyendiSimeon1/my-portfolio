@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+}
 .hero-img {
     overflow: hidden;
     color: black;

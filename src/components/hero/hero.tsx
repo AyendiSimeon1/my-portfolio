@@ -6,13 +6,13 @@ import  hero2  from '../../assets/hero-2.jpg';
 
 const Hero = () => {
     return (
-        <div className="hero-section">
-            <div className="container">
+        <div className="container">
+            <div className="hero-section">
                 <div className="row">
-                    <div className="col-md-4 col-xl-4">
-                        <img src={hero2} width={400} alt="" className="hero-img" />
+                    <div className="col-md-4 col-sm-4">
+                        <img src={hero2} width={400} alt="" className="img-fluid hero-img" />
                     </div>
-                    <div className="col-md-6 col-xl-6">
+                    <div className="col-md-6 col-sm-6">
                         <div className="hero-text align-items-center justify-content-center p-4">
                             <p>Hello. I'm</p>
                             <h1>Ayendi Simeon</h1>
@@ -36,12 +36,12 @@ const Hero = () => {
                     <h1 className="about-text">About Me</h1>
                     <div className="row">
                         
-                            <div className="col-md-3">
+                            <div className="col-md-3 col-sm-3">
                                 <div className="about-img">
                                     <img src={aboutImg} />
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6 col-sm-3">
                                 <div className="about-card">
                                     
                                     <h2>Experience</h2>
@@ -64,7 +64,7 @@ const Hero = () => {
                     <div className="row">
                         <p>Explore My</p>
                         <h2>Experience</h2>
-                        <div className="col-md-4">
+                        <div className="col-md-4 col-sm-4">
                                 <h3>Frontend Development</h3>
                                 <div className="skill-tab">
                                     
@@ -77,7 +77,7 @@ const Hero = () => {
                                     
                                 </div>
                                 </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 col-sm-4">
                                     <h3>Backend Development</h3>
                                     <div className="skill-tab">
                                         <p>Python</p>
