@@ -1,19 +1,17 @@
+import 'bootstrap/dist/css/bootstrap.css';
+//import 'bootstrap/dist/js/bootstrap.js'
 
 import './App.css'
+import Header from './components/header/header.tsx';
+import Hero from './components/hero/hero.tsx';
 
 function App() {
 
   return (
-    <>
-      <div>
-        <p>Simeon</p>
-      </div>
-      <h1>Vite + React</h1>
-      <p>This is simeon ayendi</p>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div>
+      <Header />
+      <Hero />
+    </div>
   )
 }
 
