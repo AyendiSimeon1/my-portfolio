@@ -1,10 +1,12 @@
 body {
     overflow-x: hidden;
 }
+html, body {width: auto!important; overflow-x: hidden!important}
 .hero-img {
     overflow: hidden;
     color: black;
     border-radius: 30px;
+    overflow-x:hidden;
    
 }
 

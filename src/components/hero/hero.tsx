@@ -10,7 +10,7 @@ const Hero = () => {
             <div className="hero-section">
                 <div className="row">
                     <div className="col-md-4 col-sm-4">
-                        <img src={hero2} width={400} alt="" className="img-fluid hero-img" />
+                        <img src={hero2} alt="" className="img-fluid hero-img" />
                     </div>
                     <div className="col-md-6 col-sm-6">
                         <div className="hero-text align-items-center justify-content-center p-4">
