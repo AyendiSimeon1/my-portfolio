@@ -11,8 +11,24 @@ html, body {width: auto!important; overflow-x: hidden!important}
 }
 
 .hero-section {
-    padding-top: 170px;
+    padding-top: 30px;
 
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+    width: auto;
+}
+
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
 }
 
 a {
@@ -29,9 +45,6 @@ a {
 
 }
 
-.container {
-    margin-top: 200px;
-}
 
 .hero-icons span {
     width: 50%;
@@ -56,6 +69,9 @@ a {
 .hero-icons {
     align-items: center;
     justify-content: center;
+    padding: 2rem;
+    width: 1rem;
+    
     
 }
 
@@ -67,6 +83,21 @@ a {
 .hero-text p, .hero-text h1, .hero-buttons, .hero-icons, .hero-text h2{
     text-align: center;
 }
+
+.contact-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact-card h4 {
+    color: #007bff;
+  }
+
+  .contact-card p {
+    color: #495057;
+  }
 
 .about-img img {
     width: 250px;
@@ -161,3 +192,24 @@ a {
     
 }
 
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-card .card-body {
+    padding: 20px;
+  }
+
+  .project-card h5 {
+    color: #007bff;
+  }

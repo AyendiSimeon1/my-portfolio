@@ -1,6 +1,7 @@
 body {
     margin-right: 50px;
     margin-left: 50px;
+    padding: 0px;
 }
 @font-face {
     font-family: 'providence-bold';
@@ -23,7 +24,7 @@ ul {
     align-items: center;
 }
 .navbar-brand {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     font-weight: 500;
 }
 
