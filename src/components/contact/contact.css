@@ -1,0 +1,20 @@
+.contact-section {
+max-width: 600px;
+margin: auto;
+}
+
+.contact-details {
+background-color: #fff;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details h2 {
+color: #007bff;
+}
+
+.contact-details p {
+color: #495057;
+}

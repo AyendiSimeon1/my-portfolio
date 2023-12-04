@@ -1,0 +1,10 @@
+
+.carousel-card {
+    max-width: 300px;
+    margin: auto;
+  }
+
+  .carousel-card img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
