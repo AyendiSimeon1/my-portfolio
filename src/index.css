@@ -1,8 +1,3 @@
-body {
-    font-family: 'Roboto', sans-serif;
-  }
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700; /* Use the bold variant for headings */
-}
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
