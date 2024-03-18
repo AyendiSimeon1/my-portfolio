@@ -10,7 +10,10 @@ const Product = () => {
               <img src={} h={} w={} />
      
            </div>
-                
+              <footer class="bg-gray-800 text-white text-center py-4">
+  <p>© 2024 - Your Name or Company Name</p>
+</footer>
+  
         </div>
     )
 
