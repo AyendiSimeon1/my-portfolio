@@ -11,6 +11,18 @@ const Hero = () => {
 <div class name"text-white-100 text-2xl">
   Backend Developer        
 </div>
+<section class="text-center py-16 md:py-32">
+  <h1 class="text-5xl font-bold md:text-7xl animate-bounce">Hi, I'm [Your Name]</h1>
+  <p class="text-xl leading-relaxed mt-4 text-gray-700 animate-fade-in-up">
+    [Short description about yourself and what you do. 
+    Highlight your skills or area of expertise here.]
+  </p>
+  <a href="#work" class="inline-flex items-center px-4 py-2 mt-8 font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-blue-700 animate-pulse">
+    See My Work
+    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 5l7 7-7 7"></path></svg>
+  </a>
+</section>
+
 <button class name="rounded-full px-2 border-3">Download Resume</button>
 <div class="bg-gray-100 p-4 rounded-lg shadow-md">
   <h3 class="text-lg font-medium mb-2">My Skills</h3>
