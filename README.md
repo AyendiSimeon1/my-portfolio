@@ -1,1 +1,2 @@
-[![pages-build-deployment](https://github.com/AyendiSimeon1/my-portfolio/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/AyendiSimeon1/my-portfolio/actions/workflows/pages/pages-build-deployment)
+** I am Ayendi Simeon **
+** A Backend Developer **
