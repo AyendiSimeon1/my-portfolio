@@ -20,14 +20,14 @@ const products = [
     { name: "About", url: "#about" },
     { name: "Skills", url: "#skills" },
     { name: "Projects", url: "#projects" },
-    { name: "contact", url: "#contact" },
+    { name: "Contact", url: "#contact" },
   ];
   
-  // Social Media Links
-  const socialMedia = [
-    { name: "Twitter", url: "https://twitter.com/example" },
-    { name: "LinkedIn", url: "https://www.linkedin.com/in/example" },
-    { name: "GitHub", url: "https://github.com/example" }
+  const socialLinks = [
+    { title: "LinkedIn", iconClass: "fab fa-linkedin-in", href: "#" },
+    { title: "GitHub", iconClass: "fab fa-github", href: "#" },
+    { title: "Twitter", iconClass: "fab fa-twitter", href: "#" },
+    { title: "Email", iconClass: "fas fa-envelope", href: "mailto:your@email.com" }
   ];
   
   // Work Experience
@@ -36,5 +36,26 @@ const products = [
     { company: "Company B", position: "Position B", duration: "March 2018 - November 2019" },
     { company: "Company C", position: "Position C", duration: "June 2016 - February 2018" }
   ];
+
+  const iconClasses = [
+    "fas fa-html",
+    "fab fa-css3-alt",
+    "fab fa-js-square",
+    "fab fa-react",
+    "fab fa-python",
+    "fab fa-node-js",
+    "fab fa-aws",
+    "fab fa-git",
+    "fab fa-react",
+    "fab fa-node-js",
+    "fas fa-server",
+    "fab fa-html5",
+    "fab fa-css3-alt",
+    "fab fa-js-square",
+    "fas fa-code"
+  ];
   
-  export default navbarLinks;
+  export default {
+    navbarLinks,
+    iconClasses
+  };
