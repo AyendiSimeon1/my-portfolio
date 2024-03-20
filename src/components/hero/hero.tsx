@@ -1,4 +1,5 @@
 import './hero.css';
+import '../data.tsx';
 
 const Hero = () => {
     return (
